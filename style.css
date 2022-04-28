@@ -54,7 +54,7 @@ a {
 
 }
 
-.heading {
+.hero {
     font-size: 48px;
     font-weight: bolder;
 }
@@ -76,4 +76,49 @@ img {
     width: 400px;
     height: auto;
     
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 36px 0px;
+    text-align: center;
+}
+
+.images-text {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.section-two {
+    margin-top: 114px;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-weight: lighter;
+    font-size: 36px;
+    font-style: italic;
+    
+}
+
+.quote {
+    padding: 50px 100px;
+
+}
+.perso {
+    text-align: end;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+.image-two {
+    width: 200px;
+}
+.subtext {
+    width: 200px;
 }
