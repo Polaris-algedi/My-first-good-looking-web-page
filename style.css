@@ -5,10 +5,14 @@ body {
 }
 
 .header {
-    background-color: #1f2937;
     color: #f9faf8;
     display: flex;
     justify-content: center;
+
+}
+
+.header .center {
+    background-color: #1f2937;
 
 }
 
@@ -17,22 +21,41 @@ body {
 }
 
 .top {
-    padding: 8px 0px;
+    margin: 8px 32px;
 
     display: flex;
     justify-content: space-between;
+
+}
+div > a {
+    text-decoration: underline;
+}
+
+div > a:hover {
+    color: #3882f6;
+    background-color: #f9faf8;
+
 
 }
 
 .bottom {
     display: flex;
     justify-content: space-between;
-    margin: 100px 0px;
+    margin: 100px 32px;
 
+}
+.align  {  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
 }
 
 .logo {
     font-size: 24px;
+    font-weight: 1000;
+    font-style: italic;
+    
 
 }
 
@@ -59,9 +82,8 @@ a {
     font-size: 48px;
     font-weight: bolder;
 }
-.text {
+.text, .hero {
     width: 500px;
-    margin: 20px 0px;
 
 }
 
@@ -71,6 +93,16 @@ a {
     border: 1px solid #3882f6;
     padding: 8px 16px;
     border-radius: 8px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.3);
+}
+.text .button {
+    margin-left: 50px;
+
+}
+.button:hover {
+    background-color: #f9faf8;
+    color: #3882f6;
+
 }
 
 img {
@@ -101,15 +133,18 @@ img {
 .section-two {
     margin-top: 114px;
     background-color: #e5e7eb;
-    color: #1f2937;
-    font-weight: lighter;
-    font-size: 36px;
-    font-style: italic;
+    color: rgb(31, 41, 55);
+
     
 }
 
 .quote {
     padding: 64px 124px;
+    font-weight: lighter;
+    font-size: 36px;
+    font-style: italic;
+    color: rgb(31, 41, 55, .7);
+
 
 }
 
@@ -117,6 +152,9 @@ img {
     text-align: end;
     padding-right: 124px;
     padding-bottom: 64px;
+    font-size: 20px;
+    font-weight: bold;
+
 }
 
 .image-two {
@@ -136,6 +174,7 @@ img {
     color: #f9faf8;
     border-radius: 8px;
     padding: 32px 64px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.8);
 
     display: flex;
     justify-content: space-between;
