@@ -131,7 +131,7 @@ img {
 }
 
 .section-two {
-    margin-top: 114px;
+    margin-top: 64px;
     background-color: #e5e7eb;
     color: rgb(31, 41, 55);
 
@@ -158,11 +158,18 @@ img {
 }
 
 .image-two {
-    width: 200px;
+    width: 250px;
+    height: 300px;
 }
 
-.subtext {
-    width: 200px;
+.subtext, .img-heading {
+    width: 250px;
+}
+
+.img-heading {
+    font-size: large;
+    font-weight: 700;
+    color: #1f2937;
 }
 .section-three {
     padding: 100px 200px;
