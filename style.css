@@ -109,6 +109,7 @@ img {
     width: 400px;
     height: auto;
     
+    display: block;
 }
 
 .content {
@@ -120,7 +121,7 @@ img {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
-    margin: 36px 0px;
+    margin: 56px 0px;
     text-align: center;
 }
 
@@ -131,7 +132,7 @@ img {
 }
 
 .section-two {
-    margin-top: 64px;
+    margin-top: 94px;
     background-color: #e5e7eb;
     color: rgb(31, 41, 55);
 
@@ -154,7 +155,7 @@ img {
     padding-bottom: 64px;
     font-size: 20px;
     font-weight: bold;
-
+    text-shadow: 4px 4px 10px rgba(0,0,0,.3);
 }
 
 .image-two {
@@ -164,13 +165,23 @@ img {
 
 .subtext, .img-heading {
     width: 250px;
+    color: #1f2937;
 }
 
 .img-heading {
     font-size: large;
     font-weight: 700;
-    color: #1f2937;
+
 }
+
+.border {
+    border: 2px solid #1f2937;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.8);
+
+}
+
 .section-three {
     padding: 100px 200px;
 
@@ -196,5 +207,5 @@ img {
     background-color: #1f2937;
     color: #f9faf8;
     text-align: center;
-    padding: 16px;
+    padding: 32px;
 }
